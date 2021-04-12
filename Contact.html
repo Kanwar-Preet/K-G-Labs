@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<head>
+<title> K&G Labs </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="New_new.css">
+  <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+  <title>Chitkara Labs</title>
+<script>
+$(document).ready(function(){
+  $("#darkmode").click(function(){
+    $("body,navbar").toggleClass("white");
+	$("form").toggleClass("form-color");
+  });
+  $("#textbig").click(function(){
+    $(".container").css("font-size", "+=10px");
+});
+  $("#textsmall").click(function(){
+    $(".container").css("font-size", "-=10px");
+});
+});
+</script>
+</head>
+<body id="myPage">
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="index_new.html"><img src="logo.png" width="120" height="44"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index_new.html"><img src="Home Icon.png" width="22" height="22"></a></li>
+        <li><a href="All Tests.html"> BOOK A TEST </a></li>
+        <li><a href="MedS_1.html"> ORDER MEDICINES </a></li>
+        <li><a href="Contact.html"> CONTACT US </a></li>
+		<li><a href="tel:+01112344321"> CALL NO:- 011 1234 4321 </a></li>
+		<!--<li><a href="#"><button id="textbig">Text Bigger</button></a></li>
+		<li><a href="#"><button id="textsmall">Text Smaller</button></a></li>-->
+      </ul>
+    </div>
+  </div>
+</nav>
+<br><br><br>
+<button id="darkmode" class="btn" style="float:right;"><span class="glyphicon glyphicon-adjust"> Dark Mode</span></button>
+<div class="container" style="padding: 60px 80px;">
+<h3 align=center>Your Information</h3>
+<form class="form-horizontal" action="index_new.html">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="fname">First Name:</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="name" placeholder="Enter First Name" name="fname">
+      </div>
+	</div>
+	<div class="form-group">
+      <label class="control-label col-sm-2" for="lname">Last Name:</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="name" placeholder="Enter Last Name" name="lname">
+      </div>
+	</div>
+	<div class="form-group">
+	  <label class="control-label col-sm-2" for="email">Email:</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
+	</div> 
+	<div class="form-group">
+	  <label class="control-label col-sm-2" for="mno.">Mobile No.:</label>
+	  <div class="col-sm-10">
+	    <input type="number" class="form-control" id="no." placeholder="Enter Mobile No." name="mno.">
+	  </div>
+	</div>   
+	 <div class="form-group">
+	    <label class="control-label col-sm-2" for="sel2">Type of Packages:</label>
+		<div class="col-sm-10">
+      <select class="form-control col-sm-10" id="sel2">
+        <option>Swasthfit Basic Package</option>
+        <option>Swasthfit Super 1 Package</option>
+        <option>Swasthfit Super 2 Package</option>
+        <option>Swasthfit Super 3 Package</option>
+        <option>Sugar Screen</option>
+		<option>Swasthfit Woman Package</option>
+		<option>Swasthfit Senior Citizen Package</option>
+      </select>
+		</div>
+		</div>
+<div class="form-group">
+  <label class="control-label col-sm-2" for="comment">Type your message:</label>
+  <div class="col-sm-10">
+  <textarea class="form-control col-sm-10" id="comment"></textarea>
+</div> 		
+		</div>
+	  <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-9">
+        <button type="submit" class="btn btn-default" onclick="alert('We will get back to you at the earliest')">Submit</button>
+      </div>
+  </form>
+	</div> 
+</div>
+<br><br><br>
+</body>
+</html>

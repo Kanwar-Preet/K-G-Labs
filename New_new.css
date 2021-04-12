@@ -1,0 +1,99 @@
+  body {
+    font: 400 15px/1.8 Lato, sans-serif;
+  }
+  .white{
+	  color:white;
+	  background-color:black;
+  }
+  .form-color{
+	  background-color:#404040;
+	  color:white;
+  }
+ /* .container {
+    padding: 80px 120px;
+  }*/
+  .carousel-inner {
+	  width:70%;
+	  float:right;
+  }
+  .carousel-inner img {
+    width: 100%; 
+    margin: auto;
+  }
+  .carousel-caption h3 {
+    color: #fff !important;
+  }
+  @media (max-width: 768px) {
+    .carousel {
+      display: none;
+    }
+	form{
+		width:100%;
+	}
+  }
+  .btn {
+    padding: 10px 20px;
+    background-color: orange;
+	margin: 8px 0;
+    color: white;
+    border-radius: 4px;
+    transition: .2s;
+  }
+  .btn:hover, .btn:focus {
+    border: 1px solid orange;
+    background-color: #fff;
+    color: orange;
+  }
+  .nav-tabs li a {
+    color: #777;
+  }
+  .navbar {
+    font-family: Acme, sans-serif;
+    margin-bottom: 0;
+    background-color: orange;
+    border: 0;
+    font-size: 14px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+    color: #fff !important;
+  }
+  .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+  .form-control {
+    border-radius: 0;
+  }
+  textarea {
+    resize: none;
+  }
+  form{
+	    border: 6px solid orange;
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        }
+	input[type=text], input[type=password], input[type=email], input[type=number], textarea, select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+	input[type=submit] {
+	background-color: orange;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-color: orange;
+    border-radius: 4px;
+    cursor: pointer;
+    }
